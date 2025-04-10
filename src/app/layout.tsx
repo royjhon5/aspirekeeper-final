@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "doctors appointment",
     ],
     openGraph: {
-      url: "https://theradiagnostic-staging.vercel.app/",
+      url: "",
       type: "website",
       title: "Aspire Keeper Solutions",
       description:
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       siteName: "TheraDiagnostics",
       images: [
         {
-          url: "https://theradiagnostic-staging.vercel.app/thumbnail/thumbnail.png",
+          url: "",
           width: 1200,
           height: 630,
           alt: "Aspire Keeper Solutions Thumbnail",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       site: "@rjdev",
       images: [
         {
-          url: "https://theradiagnostic-staging.vercel.app/thumbnail/thumbnail.png",
+          url: "",
           width: 1200,
           height: 630,
           alt: "Aspire Keeper Solutions Thumbnail",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
       ],
     },
     alternates: {
-      canonical: "https://theradiagnostic-staging.vercel.app/",
+      canonical: "",
     },
 };
 
