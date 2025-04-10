@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
 
         <Container>
         <div className="flex flex-col items-center justify-center py-20 h-full md:mb-96 sm:mb-0">
-              <div className="flex flex-col items-center md:mt-96 sm:mt-8 max-w-8xl w-11/12 md:w-full bg-white/70 backdrop-blur-sm p-4 rounded-xl shadow-lg">
+              <div className="flex flex-col items-center md:mt-96 sm:mt-0 max-w-8xl w-11/12 md:w-full bg-white/70 backdrop-blur-sm p-4 rounded-xl shadow-lg">
                     <h1 className="text-shadow-lg text-4xl sm:text-sm md:text-4xl font-bold text-center bg-clip-text bg-[#0d4a3a] from-gray-50 to-gray-50 text-transparent">
                     Aspire Keeper Solutions
                     </h1>

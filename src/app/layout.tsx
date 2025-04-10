@@ -11,9 +11,9 @@ export const metadata: Metadata = {
       "Aspire Keeper handles your tasks and to-do lists, so you can focus on achieving your goals. We offer virtual assistance to streamline work and boost efficiency",
     robots: "index, follow",
     keywords: [
-      "diagnostics",
-      "thera",
-      "doctors appointment",
+      "aspirekeeper",
+      "apire",
+      "virtual assistant",
     ],
     openGraph: {
       url: "",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
       siteName: "TheraDiagnostics",
       images: [
         {
-          url: "",
+          url: "https://aspirekeeper.com/thumbnail/thumbnail.png",
           width: 1200,
           height: 630,
           alt: "Aspire Keeper Solutions Thumbnail",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
       ],
     },
     alternates: {
-      canonical: "",
+      canonical: "https://aspirekeeper.com/",
     },
 };
 

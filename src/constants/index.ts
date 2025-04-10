@@ -105,12 +105,12 @@ export const pricingCards = [
 
 export const BehindAspire = [
     {
-        name: 'Sugar Weeg',
+        name: 'Arra Clarin',
         info: 'Operations Director Oversees day-to-day operations and ensures all client workflows run smoothly. Manages team systems, supports staff performance, and works closely with clients to deliver consistent, high-quality outcomes.',
         imgSrc: '/team/arra.png',
     },
     {
-        name: 'Arra Clarin',
+        name: 'Sugar Weeg',
         info: 'Client Services Director Leads client relationships and onboarding. Focuses on understanding client needs and matching them with the right support. Ensures service standards are met and client experience is always prioritised.',
         imgSrc: '/team/sugar.png', 
     },
