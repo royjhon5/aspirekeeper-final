@@ -19,7 +19,7 @@ export default function Home() {
         <Wrapper>
             <HeroSection />           
         </Wrapper>
-        <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+        <Wrapper className="flex flex-col items-center justify-center relative">
           <AboutUsSection />
         </Wrapper>    
         <Wrapper className="flex flex-col items-center justify-center py-12 relative">

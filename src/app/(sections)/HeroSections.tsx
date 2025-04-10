@@ -42,18 +42,19 @@ const HeroSection: React.FC = () => {
 
         <Container>
         <div className="flex flex-col items-center justify-center py-20 h-full md:mb-96 sm:mb-0">
-              <div className="flex flex-col items-center md:mt-20 sm:mt-8 max-w-3xl w-11/12 md:w-full">
-                    <h1 className="text-shadow-lg text-4xl md:text-6xl lg:textxl md:!leading-snug font-bold text-center bg-clip-text bg-[#0d4a3a] from-gray-50 to-gray-50 text-transparent">
+              <div className="flex flex-col items-center md:mt-96 sm:mt-8 max-w-8xl w-11/12 md:w-full bg-white/70 backdrop-blur-sm p-4 rounded-xl shadow-lg">
+                    <h1 className="text-shadow-lg text-4xl sm:text-sm md:text-4xl font-bold text-center bg-clip-text bg-[#0d4a3a] from-gray-50 to-gray-50 text-transparent">
                     Aspire Keeper Solutions
                     </h1>
-                    <p className="text-base md:text-lg text-center text-shadow-lg">
+                    <p className="text-center text-sm">
                     At Aspire Keeper Soutions, we take care of the tasks, details, and to-do lists, so you can focus what truly matters-achieveing your aspirations.
                     whether you&apos;re a business owner, entrepreneur, or busy progessional, we provide virtual assistance to streamline your workload and maximize efficiency
                     </p>
+                    <Button size="lg" className='bg-[#16A7E2] rounded-full text-white mt-5 hover:bg-[#16A7E2]/90'>
+                      Book a Free Consultation <ArrowRight className="ml-4" size={16} />
+                    </Button> 
                 </div>
-                <Button size="lg" className='bg-[#16A7E2] rounded-full text-white mt-10 hover:bg-[#16A7E2]/90'>
-                   Book a Free Consultation <ArrowRight className="ml-4" size={16} />
-                </Button>                   
+                                  
             </div>
                 <div className="relative flex items-center py-10 md:py-20 w-full">
                     <div className="absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
