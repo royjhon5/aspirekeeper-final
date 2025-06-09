@@ -11,26 +11,25 @@ import BlogAndTipsSection from "./(sections)/BlogAndTipsSection";
 import Testimonials from "./(sections)/Testimonials";
 import MeetTheTeam from "./(sections)/OurTeam";
 
-
 export default function Home() {
   return (
     <Layout>
       <section className="w-full relative flex items-center justify-center flex-col px-4 md:px-0 py-8">
         <Wrapper>
-            <HeroSection />           
+          <HeroSection />
         </Wrapper>
         <Wrapper className="flex flex-col items-center justify-center relative">
           <AboutUsSection />
-        </Wrapper>    
+        </Wrapper>
         <Wrapper className="flex flex-col items-center justify-center py-12 relative">
-         <ServicesSection />
+          <ServicesSection />
         </Wrapper>
         <Wrapper className="flex flex-col items-center justify-center py-12 relative">
           <BookAppointmentSection />
         </Wrapper>
-        <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+        {/* <Wrapper className="flex flex-col items-center justify-center py-12 relative">
           <PricingAndPlanningSection />
-        </Wrapper>
+        </Wrapper> */}
         <Wrapper className="flex flex-col items-center justify-center py-12 relative">
           <Testimonials />
         </Wrapper>
